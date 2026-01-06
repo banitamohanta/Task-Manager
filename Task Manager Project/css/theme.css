@@ -1,0 +1,117 @@
+/* Dark Pink Theme */
+body.dark-theme {
+    background: linear-gradient(135deg, #2d1b2e 0%, #3a2c3e 100%);
+    color: #f0e6f2;
+}
+
+body.dark-theme .container {
+    background: rgba(45, 27, 46, 0.95);
+    color: #f0e6f2;
+    border-color: rgba(255, 107, 139, 0.2);
+}
+
+body.dark-theme .app-header {
+    background: linear-gradient(135deg, #ff6b8b, #ff477e);
+}
+
+body.dark-theme .task-input-section,
+body.dark-theme .stats-section,
+body.dark-theme .bulk-actions {
+    background: rgba(58, 44, 62, 0.8);
+}
+
+body.dark-theme .form-options {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 107, 139, 0.2);
+}
+
+body.dark-theme #taskInput,
+body.dark-theme #searchInput,
+body.dark-theme .priority-select select,
+body.dark-theme .due-date input,
+body.dark-theme .sort-options select,
+body.dark-theme #importText {
+    background: rgba(255, 255, 255, 0.1);
+    color: #f0e6f2;
+    border-color: rgba(255, 107, 139, 0.3);
+}
+
+body.dark-theme #taskInput:focus,
+body.dark-theme #searchInput:focus,
+body.dark-theme .priority-select select:focus,
+body.dark-theme .due-date input:focus,
+body.dark-theme .sort-options select:focus {
+    border-color: var(--primary-pink);
+    box-shadow: 0 0 0 3px rgba(255, 107, 139, 0.3);
+}
+
+body.dark-theme .task-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 107, 139, 0.2);
+}
+
+body.dark-theme .stat-card {
+    background: rgba(255, 255, 255, 0.08);
+    color: #f0e6f2;
+}
+
+body.dark-theme .task-text {
+    color: #f0e6f2;
+}
+
+body.dark-theme .task-meta {
+    color: rgba(240, 230, 242, 0.7);
+}
+
+body.dark-theme .empty-state i {
+    color: rgba(255, 107, 139, 0.3);
+}
+
+body.dark-theme .modal-content {
+    background: #3a2c3e;
+    border-color: rgba(255, 107, 139, 0.2);
+}
+
+body.dark-theme .modal-content h3 {
+    color: #f0e6f2;
+}
+
+body.dark-theme .filter-btn {
+    background: rgba(255, 107, 139, 0.2);
+    color: #f0e6f2;
+}
+
+body.dark-theme .filter-btn:hover {
+    background: rgba(255, 107, 139, 0.3);
+}
+
+body.dark-theme .filter-btn.active {
+    background: linear-gradient(135deg, var(--primary-pink), var(--deep-pink));
+    color: white;
+}
+
+body.dark-theme .btn-icon {
+    background: rgba(255, 107, 139, 0.2);
+    color: var(--light-pink);
+}
+
+body.dark-theme .btn-icon:hover {
+    background: var(--primary-pink);
+    color: white;
+}
+
+/* Pink glow effect for dark mode */
+body.dark-theme .btn-primary {
+    box-shadow: 0 4px 20px rgba(255, 107, 139, 0.4);
+}
+
+body.dark-theme .btn-primary:hover {
+    box-shadow: 0 8px 30px rgba(255, 107, 139, 0.6);
+}
+
+/* Text colors for dark mode */
+body.dark-theme {
+    --text-color: #f0e6f2;
+    --text-light: rgba(240, 230, 242, 0.7);
+    --border-color: rgba(255, 107, 139, 0.2);
+}
