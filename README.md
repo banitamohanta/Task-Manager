@@ -31,7 +31,3 @@ A feature-rich, interactive task management application built with vanilla JavaS
 - Code editor (VS Code recommended)
 - Basic understanding of HTML, CSS, and JavaScript
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/week2-task-manager.git
